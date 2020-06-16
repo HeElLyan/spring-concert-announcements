@@ -1,0 +1,1039 @@
+html, body {
+    margin: 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    position: relative;
+}
+.navigation {
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    padding-left: 0;
+    float: right;
+    content: justify;
+    align-items: right;
+    justify-content: right;
+    background: #333333;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #333333;
+    float: right;
+    display: flex;
+    content: block;
+}
+
+.navigation li {
+    float: left; /* Выстраивание элементов списка в один ряд. */
+    font-family: 'Microsoft Sans Serif', sans-serif; /* Указание типа шрифта. */
+    font-size: 18px; /* Размер текста в ссылках. */
+    content: justify;
+    content: block;
+}
+.navigation li a {
+    display: block; /* Изменение отображения на блочное для того чтобы иметь возможность задать внутренние отступы. */
+    padding: 16px 21px;  /* Внутри блочные отступы. */
+    background: #333333; /* Цвет блоков меню. */
+    color: white; /* Цвет текста в блоках меню. */
+    text-decoration: none; /* Устранение подчёркивания ссылок. */
+    position: relative; /* Это необходимо при использовании Internet Explorer 6 для того, чтобы ссылка по всей своей площади была «кликабельной». */
+    content: block;
+}
+.navigation li a:hover {
+    color: #000000;  /* Цвет текста при наведении курсора. */
+}
+
+.navigation li a.news {
+    color: #000000;
+}
+
+.navigation li a.artists {
+    color: #000000;
+}
+
+.navigation li a.forum {
+    color: #000000;
+}
+
+.navigation li a.sign_in {
+    color: #000000;
+}
+
+.navigation li a.sign_up {
+    color: #000000;
+}
+
+.navigation li a.profile {
+    color: #000000;
+}
+
+.artists_0  .table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.artists_0  .table__cell {
+    display: table-cell;
+    vertical-align: middle;
+    height: 500px;
+    -webkit-transition-duration: 2s;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    transition-duration: 2s;
+}
+
+
+.artists_0 .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.artists_0  img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 25px;
+    margin-left: 155px;
+}
+
+.artists_0 .delete img {
+    margin-left: 0px;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 65px;
+}
+
+.artists_0  @media (max-height: 600px) {
+    .table__cell {
+        -moz-transform:  scale(0.7);
+        -ms-transform:  scale(0.7);
+        -webkit-transform:  scale(0.7);
+        -o-transform:  scale(0.7);
+        transform:  scale(0.7);
+    }
+}
+.artists_0 p {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    color: #333333;
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 65px;
+    left: 0px;
+}
+
+.artists_0 .col-md-2 {
+    padding: 0px;
+}
+
+.artists_0 .delete a img {
+    display: inline-block;
+}
+
+.topic_1 h4 a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.topic_1 h4 a:hover {
+    color: #000000;
+}
+
+.topic_1 h4 {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    color: #333333;
+    font-size: 21px;
+    margin-top: 20px;
+    margin-left: 550px;
+    margin-bottom: 0px;
+    display: inline-block;
+
+}
+
+.topic_11 h4 {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    color: #333333;
+    font-size: 21px;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.topic_11 h4 a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.topic_11 h4 a:hover {
+    color: white;
+}
+
+.topic_1 p {
+    display: inline-block;
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    color: #737373;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-left: 600px;
+}
+
+.forum  button {
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    background-color: #000000;
+    color: white;
+    border-color: #000000;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    font-size: 16px;
+}
+
+.forum input {
+    display: inline-block;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    outline: none;
+    background: #F9F0DA;
+    color: #9E9C9C;
+    font-size: 16px;
+    height: 34px;
+    width: 340px;
+}
+
+.topic_1 .delete {
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 360px;
+}
+
+.forum .input-group {
+    display: inline-block;
+    margin-left: 530px;
+    margin-top: 40px;
+}
+
+.form-signin {
+    padding: 20px;
+    margin: 200px 650px;
+    display: inline-block;
+    position: absolute;
+    color: #000000;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 25px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+
+.form-signin button {
+    margin: 20px 0px;
+    width: 400px;
+    height: 40px;
+    color: white;
+    background: #000000;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    font-size: 18px;
+}
+
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    width: 400px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-signin .container button {
+    margin: 20px 0px;
+    width: 400px;
+    height: 40px;
+    color: white;
+    background: #000000;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    font-size: 18px;
+}
+
+.form-signin h2 {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    font-size: 34px;
+    padding: 35px 130px;
+}
+
+.form-news {
+    padding: 0px;
+    margin: 50px 650px;
+    display: inline-block;
+    position: absolute;
+    color: #000000;
+}
+
+.add_news button.button {
+    margin-top: 345px;
+    margin-left: 650px;
+    width: 400px;
+    height: 40px;
+    color: white;
+    background: #000000;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    font-size: 18px;
+}
+
+.form-news .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    width: 400px;
+    font-size: 16px;
+}
+
+.form-news .form-control:focus {
+    z-index: 2;
+}
+
+.form-news h2 {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    font-size: 28px;
+    padding: 0px 100px;
+}
+
+.add_news p.news_photos {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    padding: 0px;
+    margin-top: 285px;
+    margin-left: 650px;
+    font-size: 13px;
+    display: inline-block;
+    position: absolute;
+    color: #000000;
+}
+
+.add_news p.main_photo {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    padding: 0px;
+    margin-top: 40px;
+    margin-left: 0px;
+    font-size: 13px;
+    display: inline-block;
+    position: absolute;
+    color: #000000;
+}
+
+.add_news p.news_slider_photo1 {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    padding: 0px;
+    margin-top: 315px;
+    margin-left: 650px;
+    font-size: 13px;
+    display: inline-block;
+    position: absolute;
+    color: #000000;
+}
+
+.add_news p.news_slider_photo2 {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    padding: 0px;
+    margin-top: 340px;
+    margin-left: 650px;
+    font-size: 13px;
+    display: inline-block;
+    position: absolute;
+    color: #000000;
+}
+
+.add_news p.news_slider_photo3 {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    padding: 0px;
+    margin-top: 365px;
+    margin-left: 650px;
+    font-size: 13px;
+    display: inline-block;
+    position: absolute;
+    color: #000000;
+}
+
+.add_news p.main_p {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    padding: 0px;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 13px;
+    display: inline-block;
+    position: absolute;
+    color: #000000;
+}
+
+.add_artist button.button {
+    margin-top: 395px;
+    margin-left: 650px;
+    width: 400px;
+    height: 40px;
+    color: white;
+    background: #000000;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    font-size: 18px;
+}
+
+.add_artist p.artist_photos {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    padding: 0px;
+    margin-top: 285px;
+    margin-left: 650px;
+    font-size: 13px;
+    display: inline-block;
+    position: absolute;
+    color: #000000;
+}
+
+.add_artist p.main_photo {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    padding: 0px;
+    margin-top: 40px;
+    margin-left: 0px;
+    font-size: 13px;
+    display: inline-block;
+    position: absolute;
+    color: #000000;
+}
+
+.add_artist p.artist_slider_photo1 {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    padding: 0px;
+    margin-top: 315px;
+    margin-left: 650px;
+    font-size: 13px;
+    display: inline-block;
+    position: absolute;
+    color: #000000;
+}
+
+.add_artist p.artist_slider_photo2 {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    padding: 0px;
+    margin-top: 340px;
+    margin-left: 650px;
+    font-size: 13px;
+    display: inline-block;
+    position: absolute;
+    color: #000000;
+}
+
+.add_artist p.artist_slider_photo3 {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    padding: 0px;
+    margin-top: 365px;
+    margin-left: 650px;
+    font-size: 13px;
+    display: inline-block;
+    position: absolute;
+    color: #000000;
+}
+
+.add_artist p.main_p {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    padding: 0px;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 13px;
+    display: inline-block;
+    position: absolute;
+    color: #000000;
+}
+
+.form-artist h2 {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    font-size: 28px;
+    padding: 0px 100px;
+}
+
+.form-artist {
+    padding: 0px;
+    margin: 10px 650px;
+    display: inline-block;
+    position: absolute;
+    color: #000000;
+}
+
+
+.form-artist .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    width: 400px;
+    font-size: 16px;
+}
+
+.form-artist .form-control:focus {
+    z-index: 2;
+}
+
+.form-admin {
+    padding: 20px;
+    margin: 0px 630px;
+    display: inline-block;
+    position: absolute;
+    color: #000000;
+}
+
+.form-admin .form-signin-heading {
+    margin-bottom: 25px;
+}
+.form-admin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    width: 400px;
+    font-size: 16px;
+}
+.form-admin .form-control:focus {
+    z-index: 2;
+}
+.form-admin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-admin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-admin input[type="password"] {
+    margin-bottom: -1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.add_admin button {
+    margin: 20px 0px;
+    width: 400px;
+    height: 40px;
+    color: white;
+    background: #000000;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    font-size: 18px;
+}
+
+.add_admin h2 {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    font-size: 28px;
+    padding: 0px 100px;
+}
+.form-signup {
+    padding: 20px;
+    margin: 100px 650px;
+    display: inline-block;
+    position: absolute;
+    color: #000000;
+}
+
+.form-signup .form-signin-heading {
+    margin-bottom: 25px;
+}
+.form-signup .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    width: 400px;
+    font-size: 16px;
+}
+.form-signup .form-control:focus {
+    z-index: 2;
+}
+.form-signup input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signup input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signup input[type="password"] {
+    margin-bottom: -1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.sign_up button {
+    margin: 20px 0px;
+    width: 400px;
+    height: 40px;
+    color: white;
+    background: #000000;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    font-size: 18px;
+}
+
+.sign_up h2 {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    font-size: 34px;
+    padding: 0px 140px;
+}
+
+.form-createtopic {
+    padding: 20px;
+    margin: 230px 650px;
+    display: inline-block;
+    position: absolute;
+    color: #000000;
+}
+
+.form-createtopic .form-signin-heading {
+    margin-bottom: 25px;
+}
+.form-createtopic .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    width: 400px;
+    font-size: 16px;
+}
+.form-createtopic .form-control:focus {
+    z-index: 2;
+}
+
+.form-createtopic input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.create_topic button {
+    margin: 20px 0px;
+    width: 400px;
+    height: 40px;
+    color: white;
+    background: #000000;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    font-size: 18px;
+}
+
+.create_topic h2 {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    font-size: 34px;
+    padding: 20px 70px;
+}
+.card {
+    width: 45%;
+    margin-left: 450px;
+    border:  1px solid rgba(0,0,0,0);
+    top: 20px;
+}
+
+.news .card-img-top {
+    height: 650px;
+}
+
+.news h4 {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+}
+
+.news p {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.marketing h2 {
+    font-weight: normal;
+    font-family: 'Microsoft Sans Serif', sans-serif;
+}
+.marketing .col-lg-4 p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Microsoft Sans Serif', sans-serif;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette {
+    padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+    overflow: hidden; /* Vertically center images part 2: clear their floats. */
+}
+.featurette-image {
+    margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+    /* Remve the edge padding needed for mobile */
+    .marketing {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 20px;
+        margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        font-family: 'Microsoft Sans Serif', sans-serif;
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+}
+
+.carousel {
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    position: absolute;
+}
+
+.one_news .photo {
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+.one_news .table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.one_news h3 {
+    margin: 10px 300px;
+    font-family: 'Microsoft Sans Serif', sans-serif;
+}
+
+.one_news p {
+    margin-right: 300px;
+    margin-left: 300px;
+    font-family: 'Microsoft Sans Serif', sans-serif;
+}
+
+.one_news .dmy {
+    color: #737373;
+}
+
+.artist .photo {
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+.artist .table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.artist h3 {
+    margin: 10px 300px;
+    font-family: 'Microsoft Sans Serif', sans-serif;
+}
+
+.artist p {
+    margin-right: 300px;
+    margin-left: 300px;
+    font-family: 'Microsoft Sans Serif', sans-serif;
+}
+
+iframe {
+    margin: 20px 300px;
+}
+
+.topic input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.topic button {
+    margin: 20px 0px;
+    width: 400px;
+    height: 40px;
+    color: white;
+    background: #000000;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    font-size: 18px;
+}
+
+.topic button:hover {
+    background-color: #000000;
+}
+
+.topic button:active {
+    background-color: #000000;
+}
+
+.topic img {
+    display: inline;
+    margin-left: 450px;
+    margin-top: 40px;
+}
+
+.topic blockquote {
+    display: inline-table;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-family: 'Microsoft Sans Serif', sans-serif;
+}
+
+.topic .dmy {
+    color: #737373;
+}
+
+.topic_form {
+    padding: 20px;
+    margin-top: -45px;
+    display: inline-block;
+    position: absolute;
+    color: #000000;
+}
+
+.topic_form .form-signin-heading {
+    margin-bottom: 25px;
+}
+
+.topic_form .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    width: 400px;
+    font-size: 16px;
+}
+.topic_form .form-control:focus {
+    z-index: 2;
+    background-color: #fff;
+}
+
+.topic_form .btn-primary {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+    margin-left: 120px ;
+    margin-top: -20px;
+}
+
+.topic .delete img {
+    margin-left: 0px;
+}
+
+.profile img {
+    display: inline;
+    margin-left: 620px;
+    margin-top: 40px;
+}
+
+.profile blockquote {
+    margin-top: 20px;
+    margin-left: 620px;
+    font-family: 'Microsoft Sans Serif', sans-serif;
+}
+
+.profile button {
+    margin: 20px 0px;
+    width: 150px;
+    height: 35px;
+    color: white;
+    background: #000000;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    font-size: 18px;
+    margin-left: 620px;
+}
+
+.form-edit {
+    padding: 20px;
+    margin: 100px 650px;
+    display: inline-block;
+    position: absolute;
+    color: #000000;
+}
+
+.form-edit .form-signin-heading {
+    margin-bottom: 25px;
+}
+.form-edit .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    width: 400px;
+    font-size: 16px;
+}
+.form-edit .form-control:focus {
+    z-index: 2;
+}
+.form-edit input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-edit input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-edit input[type="password"] {
+    margin-bottom: -1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.edit_profile button {
+    margin: 20px 0px;
+    width: 400px;
+    height: 40px;
+    color: white;
+    background: #000000;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    font-size: 18px;
+}
+
+.edit_profile button.button {
+    margin-top: 590px;
+    margin-left: 670px;
+}
+
+.sign_up button.button {
+    margin-top: 760px;
+    margin-left: 670px;
+}
+
+.forum_search {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    margin-left: 650px;
+    color: #333333;
+}
+
+#footer {
+    margin-top: 30px;
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #333333;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+#slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #000000;
+    width: 30%;
+    height: 350%;
+}
+

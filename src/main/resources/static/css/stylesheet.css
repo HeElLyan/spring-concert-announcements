@@ -1,0 +1,38 @@
+html, body {
+	display: block;
+    margin: 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    position: absolute;
+    display: inline-block;   
+    position: relative;
+}
+
+h2 {
+	text-align: center;
+	font-size: 28px;
+	font-family: 'Microsoft Sans Serif', sans-serif;
+	color: #e89638;
+	display: inline-block;
+    position: absolute;
+    top: 63%;   
+    left: 35%;
+}
+
+button {
+	text-align: center;
+	font-size: 26px;
+	font-family: 'Microsoft Sans Serif', sans-serif;
+	background-color: black;
+	color: #e89638;
+	display: inline-block;
+    position: absolute;
+    top: 800px;   
+    left: 750px;
+    border-color: #e89638;
+    border-radius: 10px;
+    width: 150px;
+   	height: 45px;
+}
+
